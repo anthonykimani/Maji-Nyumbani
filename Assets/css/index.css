@@ -1,3 +1,6 @@
+*{
+    font-family: "Josefin sans";
+}
 /*======LINKS==========*/
 
 
@@ -11,15 +14,31 @@
 
 
 /*====== SERVICES SECTION  ==========*/
+.services{
+   background-color: whitesmoke;
+    
+}
+h2{
+    text-align: center;
+}
 .services-bar {
-    margin: 50px;
-    border: 1px solid;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
-    width:80%;
-    background-color: gray;
-    justify-content: space-between;
+    gap: 1em;
+    width: 1050px;
+    height: 410px;
+    background-color: whitesmoke;
+    border: 1px solid;
+    padding:10px 10px 30px 10px;
+    text-align: center;
+    margin: 10 50 10 50;
+    border-radius: 5px;
+}
+
+#img{
+    width:300;
+    height: 200;
+    border-radius:5px;
 }
 
 /*======  ABOUT SECTION ==========*/
