@@ -11,7 +11,16 @@
 
 
 /*====== SERVICES SECTION  ==========*/
-
+.services-bar {
+    margin: 50px;
+    border: 1px solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    width:80%;
+    background-color: gray;
+    justify-content: space-between;
+}
 
 /*======  ABOUT SECTION ==========*/
 
