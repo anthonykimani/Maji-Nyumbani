@@ -15,5 +15,52 @@
 
 /*======  ABOUT SECTION ==========*/
 
+.about-bar-container{
+    display:grid;
+}
+
+.about-bar-cards{
+    display:flex;
+    justify-content:space-around;
+}
+
+.about-bar-cards-reverse{
+    display:flex;
+    justify-content:space-around;
+    flex-direction: row-reverse;
+}
+
+.about-bar-image > img{
+    width:300px;
+    height:300px;
+}
+
+.about-bar-text{
+    display:grid;
+    align-items: flex-end;
+    height:300px;
+    width:400px;
+}
+
+.about-bar-text > h2{
+    font-size:32px;
+    font-weight:300;
+}
+
+.about-bar-text > h4{
+    font-weight: 400;
+}
+
+.about-bar-text > button{
+    padding:10px 5px;
+    width:100px;
+    background-color:#219EBC;
+    color:white;
+    border:none;
+}
+
+.about-bar-text > button:hover{
+    background-color: #219dbcda;
+}
 
 /*====== FOOTER SECTION  ==========*/
