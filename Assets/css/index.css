@@ -8,6 +8,33 @@
 
 
 /*====== HOME SECTION  ==========*/
+.home-bar {
+    background-image: url("./Assets/images/4227423.jpg");
+    background-size: cover;
+    display: grid;
+    align-content: space-around;
+    padding-left: 20px;
+    height: 100vh;
+}
+
+.home h1 {
+    font-size: xx-large;
+    width: 600px;
+    border: 1px solid white;
+}
+
+.home p {
+    font-size: larger;
+}
+
+.home button {
+    border-radius: 5px;
+    width: 90px;
+    height: 30px;
+    background-color: #219EBC;
+    color: white;
+    border: none;
+}
 
 
 /*====== SERVICES SECTION  ==========*/
@@ -15,51 +42,51 @@
 
 /*======  ABOUT SECTION ==========*/
 
-.about-bar-container{
-    display:grid;
+.about-bar-container {
+    display: grid;
 }
 
-.about-bar-cards{
-    display:flex;
-    justify-content:space-around;
+.about-bar-cards {
+    display: flex;
+    justify-content: space-around;
 }
 
-.about-bar-cards-reverse{
-    display:flex;
-    justify-content:space-around;
+.about-bar-cards-reverse {
+    display: flex;
+    justify-content: space-around;
     flex-direction: row-reverse;
 }
 
-.about-bar-image > img{
-    width:300px;
-    height:300px;
+.about-bar-image>img {
+    width: 300px;
+    height: 300px;
 }
 
-.about-bar-text{
-    display:grid;
+.about-bar-text {
+    display: grid;
     align-items: flex-end;
-    height:300px;
-    width:400px;
+    height: 300px;
+    width: 400px;
 }
 
-.about-bar-text > h2{
-    font-size:32px;
-    font-weight:300;
+.about-bar-text>h2 {
+    font-size: 32px;
+    font-weight: 300;
 }
 
-.about-bar-text > h4{
+.about-bar-text>h4 {
     font-weight: 400;
 }
 
-.about-bar-text > button{
-    padding:10px 5px;
-    width:100px;
-    background-color:#219EBC;
-    color:white;
-    border:none;
+.about-bar-text>button {
+    padding: 10px 5px;
+    width: 100px;
+    background-color: #219EBC;
+    color: white;
+    border: none;
 }
 
-.about-bar-text > button:hover{
+.about-bar-text>button:hover {
     background-color: #219dbcda;
 }
 
