@@ -41,7 +41,7 @@
 
 /*====== HOME SECTION  ==========*/
 .home-bar {
-    background-image: url("./Assets/images/4227423.jpg");
+    background-image: url("../images/4227423.jpg");
     background-size: cover;
     display: grid;
     align-content: space-around;
