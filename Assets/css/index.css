@@ -9,6 +9,34 @@
 
 
 /*====== NAVIGATION SECTION  ==========*/
+.navigation-bar{
+    background-color: #129ebc;
+    opacity: 80%;
+    list-style: none;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    color: aliceblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    
+}
+.navigation-bar li a{
+    color: white;
+    text-decoration: none;
+    
+}
+.navigation-bar button{
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right:10 px;
+    background-color: white;
+    border:none;
+    width: 100px;
+    height:50px;
+    
+}
 
 
 /*====== HOME SECTION  ==========*/
