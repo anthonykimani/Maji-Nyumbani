@@ -14,36 +14,6 @@
 /*====== HOME SECTION  ==========*/
 
 
-/*====== SERVICES SECTION  ==========*/
-.services {
-    background-color: whitesmoke;
-
-}
-
-h2 {
-    text-align: center;
-}
-
-.services-bar {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1em;
-    width: 1050px;
-    height: 410px;
-    background-color: whitesmoke;
-    border: 1px solid;
-    border-radius: 5px;
-    padding: 10px 10px 30px 10px;
-    text-align: center;
-    margin: 10 50 10 50;
-
-}
-
-#img {
-    width: 300;
-    height: 200;
-    border-radius: 5px;
-}
 
 /*======  ABOUT SECTION ==========*/
 
@@ -95,6 +65,36 @@ h2 {
     background-color: #219dbcda;
 }
 
+/*====== SERVICES SECTION  ==========*/
+.services {
+    background-color: whitesmoke;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.services-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    width: 1050px;
+    height: 410px;
+    background-color: whitesmoke;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px 10px 30px 10px;
+    text-align: center;
+    margin: 10 50 10 50;
+
+}
+
+#img {
+    width: 300;
+    height: 200;
+    border-radius: 5px;
+}
 /*====== FOOTER SECTION  ==========*/
 .footer {
     margin-top: 10px;
