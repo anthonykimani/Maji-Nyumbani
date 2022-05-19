@@ -34,7 +34,17 @@
     font-size:12px;
 }
 
-.login-card > label{
+.login-card > span{
+    display:flex;
+    justify-content:space-between;
+}
+
+.login-card > span > p{
+    font-size:12px;
+    color:red;
+}
+
+.login-card >span > label{
     font-size:12px;
     font-weight:800;
     color:#129ebc;

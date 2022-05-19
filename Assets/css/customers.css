@@ -55,6 +55,23 @@
 
 }
 
+.account-details{
+    height:400px;
+    display:grid;
+    justify-content:center;
+    border-radius:8px;
+    width:200px;
+    border:1px solid #c4c4c4;
+}
+.account-details > img{
+    width:100px;
+}
+
+.account-details > p{
+    border-bottom:1px solid #c4c4c4;
+    width:200px;
+}
+
 
 /*Pricing*/
 
