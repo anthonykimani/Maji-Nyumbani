@@ -166,6 +166,11 @@
     background-color: whitesmoke;
 
 }
+.services > h2{
+    text-align: center;
+    padding-top: 2%;
+}
+
 
 .services-bar > div{
     display:grid;
@@ -176,26 +181,29 @@
 
 .services-bar > div > h2 {
 
-    font-size:18px;
+    font-size:20px;
     text-align:start;
+    text-align: center;
 }
 .services-bar > div > p{
     width:200px;
     font-size:14px;
-    text-align:start;
+    text-align:center;
 }
 
 .services-bar {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 1em;
+    gap: 2em;
     width: 105px;
     height: 410px;
     background-color: whitesmoke;
     border-radius: 5px;
-    padding: 10px 10px 30px 10px;
+    padding: 10px  30px 10px;
     text-align: center;
-    margin: 10 50 10 50;
+   margin-left: 10%;
+   margin-top: 2%;
+   
 
 }
 
