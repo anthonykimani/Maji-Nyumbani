@@ -83,3 +83,28 @@
 }
 
 /*Donation*/
+.donationsect {
+    border: 1px solid gray;
+}
+
+.donationsect>h2 {
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.container>div> p {
+    margin-left: 20px;
+    text-align: center;
+}
+
+#imgdonation {
+    border-radius: 5px;
+    margin-top: 0;
+}
