@@ -1,5 +1,7 @@
 * {
     font-family: "Josefin sans";
+    padding:0;
+    margin:0;
 }
 
 /*======LINKS==========*/
@@ -14,28 +16,28 @@
     opacity: 80%;
     list-style: none;
     display: flex;
-    justify-content:space-around;
+    justify-content:space-evenly;
     align-items: center;
     color: aliceblue;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    
-    
+    height:40px;
 }
 .navigation-bar li a{
     color: white;
     text-decoration: none;
-    
+    font-family:'Poppins',sans-serif;
+    font-weight: 900;
+
 }
 .navigation-bar button{
-    border-radius: 10px;
-    padding-left: 10px;
-    padding-right:10 px;
     background-color: white;
     border:none;
     width: 100px;
-    height:50px;
-    
+    height:30px;
+    font-weight:800;
+}
+
+.navigation-bar button:hover{
+    background-color:#fafafa;
 }
 
 
@@ -44,31 +46,40 @@
     background-image: url("../images/4227423.jpg");
     background-size: cover;
     display: grid;
+    margin-left:100px;
     align-content: space-around;
     padding-left: 20px;
     height: 100vh;
+    font-family:'Poppins',sans-serif;
+}
+
+.home{
+    display:grid;
+    align-content:space-evenly;
+    justify-content:center;
+    height:300px;
+    width:450px;
 }
 
 .home h1 {
     font-size: xx-large;
-    width: 600px;
-    border: 1px solid white;
+    color:#585858;
 }
 
 .home p {
     font-size: larger;
+    color:#747474;
 }
 
 .home button {
     border-radius: 5px;
-    width: 90px;
-    height: 30px;
+    width: 100px;
+    height: 40px;
+    font-weight:800;
     background-color: #219EBC;
     color: white;
     border: none;
 }
-
-
 
 /*======  ABOUT SECTION ==========*/
 
@@ -79,12 +90,14 @@
 .about-bar-cards {
     display: flex;
     justify-content: space-around;
+    margin-top:50px;
 }
 
 .about-bar-cards-reverse {
     display: flex;
     justify-content: space-around;
     flex-direction: row-reverse;
+    margin-top:50px;
 }
 
 .about-bar-image>img {
@@ -99,6 +112,10 @@
     width: 400px;
 }
 
+.about-bar-text > p{
+    color:#219dbcda;
+}
+
 .about-bar-text>h2 {
     font-size: 32px;
     font-weight: 300;
@@ -106,6 +123,7 @@
 
 .about-bar-text>h4 {
     font-weight: 400;
+    color:#747474;
 }
 
 .about-bar-text>button {
@@ -126,18 +144,31 @@
 
 }
 
-h2 {
-    text-align: center;
+.services-bar > div{
+    display:grid;
+    align-content:space-between;
+    height:300px;
+    border:1px solid #c4c4c4;
+}
+
+.services-bar > div > h2 {
+
+    font-size:18px;
+    text-align:start;
+}
+.services-bar > div > p{
+    width:200px;
+    font-size:14px;
+    text-align:start;
 }
 
 .services-bar {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1em;
-    width: 1050px;
+    width: 105px;
     height: 410px;
     background-color: whitesmoke;
-    border: 1px solid;
     border-radius: 5px;
     padding: 10px 10px 30px 10px;
     text-align: center;
@@ -175,7 +206,7 @@ h2 {
     border-radius: 5px;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    gap: 1em;
+    gap: .5em;
 
 
 }
@@ -183,6 +214,7 @@ h2 {
 .footer-bar {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
     gap: 1em;
     background-color: rgba(0, 0, 0, 0.774);
     width: 100wh;
@@ -190,4 +222,13 @@ h2 {
     margin: auto 5px;
     color: white;
     text-align: center;
+}
+
+.footer-bar > div{
+    line-height:25px;
+}
+
+.footer-bar > div > p > a{
+    text-decoration:none;
+    color:white;
 }
