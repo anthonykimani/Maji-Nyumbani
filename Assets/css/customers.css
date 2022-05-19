@@ -4,6 +4,8 @@
 
 }
 
+/*Front main*/
+
 .nav-bar {
     background-color: #4DB1C9;
     text-align: left;
@@ -30,7 +32,33 @@
     color: white;
 }
 
-.column-pricing{
+/*Front main*/
+.customers-container {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    width: 500px;
+    height: 300px;
+    border: 1px solid #c4c4c4;
+}
+
+
+.supplier-bar {
+    display: grid;
+    height: 200px;
+}
+
+.name-bar {
+    height: auto;
+    border: 1px solid #dedede;
+    width: 165px;
+
+}
+
+
+/*Pricing*/
+
+.column-pricing {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1em;
@@ -42,12 +70,16 @@
     background-color: gray;
     width: 300px;
     height: 200px;
-   border: 1px solid;
-   border: radius 5px;;
-   margin:20px;
-       
-}
-.column-pricing-child button{
-justify-content: center;
+    border: 1px solid;
+    border: radius 5px;
+    ;
+    margin: 20px;
 
 }
+
+.column-pricing-child button {
+    justify-content: center;
+
+}
+
+/*Donation*/
