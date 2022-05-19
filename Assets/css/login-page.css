@@ -88,3 +88,16 @@
     background-color:#585858;
     color:white;
 }
+
+
+@media(max-width:1440px){
+    .login-image-container img{
+        height:100vh;
+    }
+}
+
+@media(max-width:1180px){
+    .login-image-container img{
+        display:none;
+    }
+}
