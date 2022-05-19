@@ -16,15 +16,21 @@
             <div class="login-card">
                 <h1>Login or Sign Up</h1>
                 <p>please enter your details</p>
-                <label for="name">name</label>
-                <input type="text"></input>
-                <label for="email">email</label>
-                <input type="email"></input>
-                <label for="password">password</label>
-                <input type="password"></input>
+                <span class="label">
+                    <label for="name">name</label> <p id="verify-name"></p>
+                </span>
+                <input type="text" id="name"></input>
+                <span class="label">
+                    <label for="email">email</label> <p id="verify-email"></p>
+                </span>
+                <input type="email" id="email"></input>
+                <span class="label">
+                    <label for="password">password</label> <p id="verify-password"></p>
+                </span>
+                <input type="password" id="password"></input>
                 <p>Forgot Password</p>
                 <button class="sign-up">Sign Up</button>
-                <button class="log-in">Login In</button>
+                <button id="log-in">Login In</button>
             </div>
         </div>
         <div class="login-image-container">
@@ -32,4 +38,5 @@
         </div>
     </div>
 </body>
+<script src="./Assets/js/login-page.js"></script>
 </html>
