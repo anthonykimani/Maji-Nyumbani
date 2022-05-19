@@ -52,17 +52,16 @@
     color:white;
 }
 
-.navigation-bar button{
+.btn1{
     background-color: white;
     border:none;
-    width: 100px;
-    height:30px;
+    padding:10px 20px;
     font-weight:800;
+    text-decoration:none;
+    color:black
 }
 
-.navigation-bar button:hover{
-    background-color:#fafafa;
-}
+
 
 
 /*====== HOME SECTION  ==========*/

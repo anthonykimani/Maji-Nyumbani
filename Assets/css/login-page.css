@@ -26,6 +26,7 @@
 .login-card > h1{
     font-family:'Poppins',sans-serif;
     font-weight: 900;
+    color:#129ebc;
 }
 
 .login-card > p{
@@ -36,6 +37,7 @@
 .login-card > label{
     font-size:12px;
     font-weight:800;
+    color:#129ebc;
 }
 
 .login-card > input{
@@ -50,7 +52,7 @@
 }
 
 .sign-up{
-    background-color:black;
+    background-color:#129ebc;
     color:white;
     border:none;
     width:300px;
@@ -73,6 +75,6 @@
 }
 
 .log-in:hover{
-    background-color:black;
+    background-color:#585858;
     color:white;
 }
