@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans';
+}
+
+.navigation-bar {
+    background-color: #129ebc;
+    opacity: 80%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: aliceblue;
+    height: 40px;
+}
+
+.admin {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+.admin>div>h2{
+    border: 1px solid #129ebc;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    background-color: #129ebc;
+    color:black;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px
+} 
+.admin>div>p {
+    border: 1px solid #129ebc;
+    margin-top: 40px;
+    margin-right: 60px;
+    background-color: #129ebc;
+    color:black;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+}
+.admin>div>p >a{
+    text-decoration: none;
+}
+
+.image{
+    justify-content: center;
+}
+.customer {
+    height: 900px;
+    border: 1px solid
+    border-radius: 5px;
+}
+
+.customers-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 8px;
+    width: 500px;
+    height: 70vh;
+    border: 1px solid #c4c4c4;
+}
+
+#imgprofile{
+justify-content: center;
+}
+
+
+.supplier-bar {
+    display: grid;
+    align-content: flex-start;
+    height: 600px;
+}
+
+.name-bar {
+    height: auto;
+    border: 1px solid #dedede;
+    width: 165px;
+}
+
+.supliers-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-radius: 8px;
+    width: 500px;
+    height: 30vh;
+    border: 1px solid #c4c4c4;
+
+}
+
+
+.suplier-bar {
+    display: grid;
+    align-content: flex-start;
+    height: 100px;
+}
+
+.name-bar {
+    height: 50px;
+    border: 1px solid #dedede;
+    width: 165px;
+}
+
+.account-details {
+    height: 400px;
+    display: grid;
+    justify-content: center;
+    border-radius: 8px;
+    width: 200px;
+    border: 1px solid #c4c4c4;
+}
+
+.account-details>img {
+    width: 100px;
+}
+
+.account-details>p {
+    border-bottom: 1px solid #c4c4c4;
+    width: 200px;
+}
+
+.flex {
+    display: flex;
+    justify-content: flex-end;
+}
