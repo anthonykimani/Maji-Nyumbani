@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Josefin sans';
+
+}
+
+/*Front main*/
+
+.nav-bar {
+    background-color: #4DB1C9;
+    text-align: left;
+    text-align: center;
+
+}
+
+.nav-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: white;
+
+}
+
+.nav-bar ul li {
+
+    width: 100px;
+    margin: 5px;
+
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/*Front main*/
+.customers-container {
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    width: 500px;
+    height: 300px;
+    border: 1px solid #c4c4c4;
+}
+
+
+.supplier-bar {
+    display: grid;
+    height: 200px;
+}
+
+.name-bar {
+    height: auto;
+    border: 1px solid #dedede;
+    width: 165px;
+
+}
+
+
+/*Pricing*/
+
+.column-pricing {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    background-color: gray;
+    margin: 10px;
+}
+
+.column-pricing-child {
+    background-color: gray;
+    width: 300px;
+    height: 200px;
+    border: 1px solid;
+    border: radius 5px;
+    ;
+    margin: 20px;
+
+}
+
+.column-pricing-child button {
+    justify-content: center;
+
+}
+
+/*Donation*/
+.donationsect {
+    border: 1px solid gray;
+}
+
+.donationsect>h2 {
+    text-align: center;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.container>div> p {
+    margin-left: 20px;
+    text-align: center;
+}
+
+#imgdonation {
+    border-radius: 5px;
+    margin-top: 0;
+}
