@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Josefin sans';
+
+}
+
+.nav-bar {
+    background-color: #4DB1C9;
+    text-align: left;
+    text-align: center;
+
+}
+
+.nav-bar ul {
+    display: inline-flex;
+    list-style: none;
+    color: white;
+
+}
+
+.nav-bar ul li {
+
+    width: 100px;
+    margin: 5px;
+
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.column-pricing{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    background-color: gray;
+    margin: 10px;
+}
+
+.column-pricing-child {
+    background-color: gray;
+    width: 300px;
+    height: 200px;
+   border: 1px solid;
+   border: radius 5px;;
+   margin:20px;
+       
+}
+.column-pricing-child button{
+justify-content: center;
+
+}
