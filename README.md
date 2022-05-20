@@ -28,7 +28,11 @@ A Two page website for a Moving company .
 ### Live Link
 
 - Click this link to view the live application [https://anthonykimani.github.io/Maji-Nyumbani/]
-- 
+
+### Figma Link
+
+* Click this link to view the figma design [https://www.figma.com/file/PBA44O6zKIUYSeaBi2X3vr/Maji-Nyumbani-Project?node-id=0%3A1]
+
 ### Technology  Used
 
 * HTML - which was used to develope the structure off the pages.
