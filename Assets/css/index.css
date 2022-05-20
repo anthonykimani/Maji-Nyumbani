@@ -83,8 +83,9 @@
 }
 
 .home h1 {
-    font-size: xx-large;
-    color:#585858;
+    font-size: x-large;
+    font-weight: 300;
+    color:#303030;
 }
 
 .home p {
@@ -102,6 +103,13 @@
     border: none;
 }
 
+.header{
+    font-size:42px;
+    position:relative;
+    top:-20px;
+    font-family:'Actor';
+    color:#585858;
+}
 /*======  ABOUT SECTION ==========*/
 
 .about-bar-container {
