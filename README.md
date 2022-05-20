@@ -1,4 +1,4 @@
-# Quick Movers Website
+# Maji Nyumbani
  ## By Anthony Kimani , Bonaventure Ochieng ,Nicholas Kipkirui , David Odawa
  ## Table of Content
  - [Description](#description)
@@ -10,31 +10,31 @@
  
  <p>This Repository Contains the Maji Nyumbani Website.</p>
  
-[Go Back to the top](#Maji-Nyumbani-Website)
+[Go Back to the top](#Maji-Nyumbani)
 
 ## Features
 
 A Two page website for a Moving company .
 
-[Go Back to the top](#Maji-Nyumbani-Website)
+[Go Back to the top](#Maji-Nyumbani)
  ###  Requirements
  
  * Access to  a computer or any other garget
  * Access to internet
  * visit the website on your browser
  ****
- [Go Back to the top](#Maji-Nyumbani-Website)
+ [Go Back to the top](#Maji-Nyumbani)
  
 ### Live Link
 
-- Click this link to view the live application https://anthonykimani.github.io/Week-2-Independent-Project-Quick-Movers-Website/
+- Click this link to view the live application [https://anthonykimani.github.io/Maji-Nyumbani/]
 - 
 ### Technology  Used
 
 * HTML - which was used to develope the structure off the pages.
 * CSS - which was used to style the User Interface.
 * 
-[Go Back to the top](#Maji-Nyumbani-Website)
+[Go Back to the top](#Maji-Nyumbani)
 
 ## Known Bugs
 
@@ -69,6 +69,5 @@ Gmail - [Anthony Kimani](anthony.kimani@student.moringaschool.com)
         [Bonaventure](bonaventure.ochieng@student.moringaschool.com)
         [Nicholas Kipkirui](nicholas.kipkirui@student.moringaschool.com)
         [David Odawa](david.odawa@student.moringaschool.co)
-Linked - [Anthony Kimani](https://www.linkedin.com/in/kimani-antony-50886b1ba/)
-Github - [Anthony Kimani](https://github.com/anthonykimani)
-[Go Back to the top](#Maji-Nyumbani-Website)
+
+[Go Back to the top](#Maji-Nyumbani)
