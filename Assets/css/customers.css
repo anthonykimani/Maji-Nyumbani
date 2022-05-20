@@ -10,6 +10,7 @@
     background-color: #4DB1C9;
     text-align: left;
     text-align: center;
+    margin: 0;
 
 }
 
@@ -33,75 +34,91 @@
 }
 
 /*Front main*/
-.customers-container {
-    display: flex;
-    align-items: center;
-    border-radius: 8px;
-    width: 500px;
-    height: 300px;
-    border: 1px solid #c4c4c4;
+
+
+.front-main{
+    width: 100vw;
+    height: 30vh;
+    background-color: rgba(77, 177, 201, 0.8);
+    text-align: center;
+    color: black;
+    font-size: large;
+    padding-top: 10px;
 }
 
-
-.supplier-bar {
-    display: grid;
-    height: 200px;
-}
-
-.name-bar {
-    height: auto;
-    border: 1px solid #dedede;
-    width: 165px;
-
-}
-
-.account-details{
-    height:400px;
-    display:grid;
-    justify-content:center;
-    border-radius:8px;
-    width:200px;
-    border:1px solid #c4c4c4;
-}
-.account-details > img{
-    width:100px;
-}
-
-.account-details > p{
-    border-bottom:1px solid #c4c4c4;
-    width:200px;
-}
-
-
+ 
 /*Pricing*/
 
 .column-pricing {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1em;
-    background-color: gray;
+    height: 300px;
     margin: 10px;
+
+}
+
+.Pricing>div>h2 {
+    text-align: center;
+}
+
+.column-pricing>div:nth-child(2) {}
+
+.column-pricing>div:nth-child(1) {
+    position: relative;
+    left: 32%;
+    top: 20%;
+
+}
+
+.column-pricing>div:nth-child(3) {
+    position: relative;
+    right: 32%;
+    top: 20%;
 }
 
 .column-pricing-child {
-    background-color: gray;
     width: 300px;
     height: 200px;
-    border: 1px solid;
-    border: radius 5px;
-    ;
+    border: 1px solid rgba(77, 177, 201, 0.8);
+    border-radius: 5px;
     margin: 20px;
+    background-color: rgba(77, 177, 201, 0.8);
 
+}
+
+.column-pricing-child>h2 {
+    text-align: center;
 }
 
 .column-pricing-child button {
     justify-content: center;
+    margin: 20px;
 
 }
 
-/*Donation*/
+#orderbtn {
+    background-color: #129ebc;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 120px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+}
+
+#orderbtn:hover {
+    color: black;
+}
+
+
+/*Suppliers info*/
+
+/*reviews*/
+
 .donationsect {
-    border: 1px solid gray;
+    height: 500px;
+    background-color: rgba(77, 177, 201, 0.8);
 }
 
 .donationsect>h2 {
@@ -116,7 +133,7 @@
     margin: 20px;
 }
 
-.container>div> p {
+.container>div>p {
     margin-left: 20px;
     text-align: center;
 }
@@ -124,4 +141,62 @@
 #imgdonation {
     border-radius: 5px;
     margin-top: 0;
+
+
+}
+
+/*====== FOOTER SECTION  ==========*/
+.footer {
+    margin-top: 10px;
+    background-color: whitesmoke;
+}
+
+#pfooter {
+    font-size: x-large;
+    font-weight: bolder;
+    margin: 10px;
+}
+
+.footerimg {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+}
+
+#footer-img {
+    width: 90px;
+    height: 50px;
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 5em;
+
+
+}
+
+.footer-bar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+    gap: 1em;
+    background-color: rgba(77, 177, 201, 0.9);
+    width: 100wh;
+    height: 220px;
+    margin: 0px;
+    color: rgb(7, 5, 5);
+    text-align: center;
+}
+
+.footer-bar>div {
+    line-height: 25px;
+}
+
+.footer-bar>div>p>a {
+    text-decoration: none;
+
+}
+
+.footer-bar>div>p>a:hover {
+    cursor: zoom-in;
 }
